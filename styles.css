@@ -9,7 +9,8 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #78866b;
+  background: #AFA8A9 ;
+
 }
 /* Link Styles */
 
@@ -18,7 +19,7 @@ a {
   color: #999;
 }
 a:hover {
-  color: #02DE6C;
+  color: #FFA07A;
 }
 
 /* Section Styles */
@@ -52,7 +53,7 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: #FFA07A;
 }
 
 header {
@@ -84,6 +85,20 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 }
+.banner, .interests {
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  font-size: 4em;    
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+}
+.banner {
+  margin: 100px 650px auto;
+}
+ .interests {
+  margin: 100px 750px auto;
+}
 .location {
   background-color: #222;
   color: #fbcf67;
@@ -99,7 +114,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #575C45;
+  border-color: #FFA07A;
 }
 
 ul.skills {
